@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <style>
+    body {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #312e81);
+    }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PLOOKUP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  </head>
+  <body id="vanta-bg">
+    <!-- hero - start -->
+<div class="bg-white/10 backdrop-blur-md pb-6 sm:pb-8 lg:pb-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <header class="mb-4 flex items-center justify-between py-4 md:py-8">
+      <!-- logo - start -->
+      <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-bold text-white md:text-3xl" aria-label="logo">
+        <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-6 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+        </svg>
+
+        PLOOKUP
+      </a>
+      <!-- logo - end -->
+
+      <!-- nav - start -->
+      
+      <!-- nav - end -->
+
+      <!-- buttons - start -->
+
+      <button type="button" class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-white md:text-base lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+        </svg>
+
+        Menu
+      </button>
+      <!-- buttons - end -->
+    </header>
+
+    <div class="bg-white/10 backdrop-blur-md py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <!-- text - start -->
+    <div class="mb-10 md:mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-6 lg:text-3xl">Phishing Website Detection</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-white md:text-lg">This tool helps you detect whether a website is safe or potentially harmful using machine learning techniques.
+  Always verify suspicious links before clicking, and avoid entering personal information on unknown websites.</p><br>
+    
+    <p class="mx-auto max-w-screen-md text-center text-green-300 md:text-lg text - success">{{predict}}</p>
+    
+    </div>
+    <!-- text - end -->
+
+    <!-- form - start -->
+    <form class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2" method="POST" action="/">
+
+      <div class="sm:col-span-2">
+        <label for="url" class="mb-2 inline-block text-sm text-white sm:text-base">Enter Website URL</label>
+        <input name="url" id="url" type="text" class="w-full rounded border bg-gray-50 px-3 py-2 text-white outline-none ring-indigo-300 transition duration-100 focus:ring" />
+      </div>
+
+      <div class="flex items-center justify-between sm:col-span-2">
+        <button class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Submit</button>
+
+        </div>
+
+    </form>
+    <!-- form - end -->
+  </div>
+</div>
+   
+  </div>
+</div>
+<!-- hero - end -->
+
+<!-- gallery - start -->
+<div class="bg-white/10 backdrop-blur-md py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-8 lg:text-3xl xl:mb-12">INFORMATION SITE</h2>
+    <div class="flex items-start justify-between gap-8 sm:items-center">
+      <p class="max-w-screen-md mx-auto text-center text-1xl lg:text-1xl font-semibold text-white">
+  This is a section where you can gain some knowledge about real life cyber crime
+</p>
+    </div>
+
+    <div class="mt-10 mb-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:mt-16 md:mb-8 md:grid-cols-4 md:gap-6 xl:gap-8">
+      <!-- image - start -->
+<a href="https://gurudattchoudhary.medium.com/how-cybercriminals-use-the-symbol-to-mask-phishing-links-7983d1028fd1" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+
+  <img src="https://prisminfosec.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-11-16.43.15-A-visually-engaging-image-for-a-blog-post-titled-Gone-Phishing.-The-design-features-a-digital-cyber-inspired-fishing-hook-with-binary-code-emails.jpg"
+       loading="lazy"
+       alt="Phishing Website"
+       class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+  <span class="relative mb-3 ml-4 inline-block text-sm text-white md:ml-5 md:text-lg">
+    Phishing Website
+  </span>
+</a>
+<!-- image - end -->
+
+      <!-- image - start -->
+<a href="https://www.indiatoday.in/technology/news/story/online-scam-alert-6-common-cyber-fraud-scammers-are-using-to-steal-money-2451221-2023-10-19"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+
+  <img src="https://img.freepik.com/free-photo/fraud-scam-phishing-caution-deception-concept_53876-120442.jpg"
+       loading="lazy"
+       alt="Fraud Detection"
+       class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+  <span class="relative mb-3 ml-4 inline-block text-sm text-white md:ml-5 md:text-lg">
+    Fraud Alart
+  </span>
+</a>
+<!-- image - end -->
+
+      <!-- image - start -->
+<a href="https://selzy.com/en/blog/spam-email-examples/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+
+  <img src="https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltb5d92757ac1ee045/bltadf416673d262eda/67c967b18d2790449965eef2/never-open-spam-emails.png%3Fcrop%3D675%2C675%2Cx14%2Cy0"
+       loading="lazy"
+       alt="Spam"
+       class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+  <span class="relative mb-3 ml-4 inline-block text-sm text-white md:ml-5 md:text-lg">
+    Spam
+  </span>
+</a>
+<!-- image - end -->
+
+      <!-- image - start -->
+<a href="https://en.wikipedia.org/wiki/Cybercrime"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+
+  <img src="https://tse3.mm.bing.net/th/id/OIP.T6WFkL-WQFV4T06Yx-pnJgHaDm?rs=1&pid=ImgDetMain&o=7&rm=3"
+       loading="lazy"
+       alt="Cyber Crime"
+       class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+  <span class="relative mb-3 ml-4 inline-block text-sm text-white md:ml-5 md:text-lg">
+    Cyber Crime
+  </span>
+</a>
+<!-- image - end -->
+    </div>
+  </div>
+</div>
+<!-- gallery - end -->
+<!-- about - start -->
+<div id="about" class="bg-white/10 backdrop-blur-md py-10 lg:py-14">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    
+    <h2 class="mb-6 text-center text-2xl font-bold text-white lg:text-3xl">
+      About Us
+    </h2>
+
+    <p class="mx-auto max-w-3xl text-center text-white lg:text-lg">
+      Welcome to Phishing Detection Website! We are passionate about helping you to find Phishing Websites.
+      Our platform offers to detecting the website which is phishing website or not.
+      We focus on quality, affordability, security and the latest technology machine learning for helping to detect the phishing website very easily.
+    </p>
+
+  </div>
+</div>
+<!-- about - end -->
+<!-- stats - start -->
+<div class="bg-white/10 backdrop-blur-md py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-lg px-4 md:px-8">
+    <!-- text - start -->
+    <div class="mb-8 md:mb-12">
+      <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-6 lg:text-3xl">Our Team by the numbers</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-white md:text-lg">This is the section where we present our strength, experience, growth etc. </p>
+    </div>
+    <!-- text - end -->
+
+    <div class="grid grid-cols-2 gap-6 rounded-lg bg-indigo-500 p-6 md:grid-cols-3 md:gap-8 md:p-8">
+      <!-- stat - start -->
+      <div class="flex flex-col items-center">
+        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">2</div>
+        <div class="text-sm text-indigo-200 sm:text-base">Total Team-size</div>
+      </div>
+      <!-- stat - end -->
+
+      <!-- stat - start -->
+      <div class="flex flex-col items-center">
+        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">NEW</div>
+        <div class="text-sm text-indigo-200 sm:text-base">Year Of Experience</div>
+      </div>
+
+      <!-- stat - start -->
+      <div class="flex flex-col items-center">
+        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">0+</div>
+        <div class="text-sm text-indigo-200 sm:text-base">Customers</div>
+      </div>
+      <!-- stat - end -->
+
+      <!-- stat - start -->
+      
+      <!-- stat - end -->
+    </div>
+  </div>
+</div>
+<!-- stats - end -->
+
+<!-- team - start -->
+<div class="bg-white/10 backdrop-blur-md py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+    <!-- text - start -->
+    <div class="mb-10 md:mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-6 lg:text-3xl">Meet our Team</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-white md:text-lg">This Section represents our team members, Transparency, and Connections</p>
+    </div>
+    <!-- text - end -->
+
+    <div class="grid grid-cols-2 gap-x-0 gap-y-0 md:grid-cols-2 lg:gap-x-0 lg:gap-y-0">
+      <!-- person - start -->
+      <div class="flex flex-col items-center">
+        <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
+          <img src="https://media.licdn.com/dms/image/v2/D4D35AQHR-ymh3XlcUQ/profile-framedphoto-shrink_400_400/B4DZxYIfuuHwAc-/0/1771005148438?e=1777363200&v=beta&t=PkJ6bbf23LskPYA04QyuXExSrZwQI5itvZ8DhSpj6GQ" loading="lazy" alt="Photo by Radu Florin" class="h-full w-full object-cover object-center" />
+        </div>
+
+        <div>
+          <div class="text-center font-bold text-indigo-500 md:text-lg">Mahesh Ghosh</div>
+          <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">Founder / CEO</p>
+
+         <!-- social - start -->
+<div class="flex justify-center">
+  <div class="flex gap-4">
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/maheshghosh" target="_blank"
+      class="text-gray-200 transition duration-100 hover:text-white active:text-white">
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-5v-7.5c0-1.8-.03-4.12-2.5-4.12-2.5 0-2.88 1.95-2.88 3.97V24h-5V8z"/>
+      </svg>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/Maheshghosh" target="_blank"
+      class="text-gray-200 transition duration-100 hover:text-white active:text-white">
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.02c-3.2.7-3.87-1.54-3.87-1.54-.52-1.32-1.28-1.67-1.28-1.67-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.27-5.23-5.64 0-1.24.44-2.26 1.17-3.05-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.14 1.17a10.9 10.9 0 012.86-.38c.97 0 1.95.13 2.86.38 2.18-1.48 3.14-1.17 3.14-1.17.62 1.59.23 2.77.11 3.06.73.79 1.17 1.81 1.17 3.05 0 4.38-2.69 5.35-5.25 5.63.41.35.78 1.04.78 2.1v3.11c0 .3.2.66.79.55A10.51 10.51 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/>
+      </svg>
+    </a>
+
+  </div>
+</div>
+<!-- social - end -->
+        </div>
+      </div>
+      <!-- person - end -->
+
+      <!-- person - start -->
+      <div class="flex flex-col items-center">
+        <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQFIL8mC6jjNnA/profile-displayphoto-scale_200_200/B56Z2uSEqVKkAY-/0/1776745469407?e=1778112000&v=beta&t=dbWAqzqPjOK4xpZa_VBGn983sS0YokTYnaoUh2OXv18" loading="lazy" alt="Photo by christian ferrer" class="h-full w-full object-cover object-center" />
+        </div>
+
+        <div>
+          <div class="text-center font-bold text-indigo-500 md:text-lg">Nibedita Chakraborty</div>
+          <p class="mb-3 text-center text-sm text-white md:mb-4 md:text-base">CFO</p>
+
+          <!-- social - start -->
+          <div class="flex justify-center">
+            <div class="flex gap-4">
+                 <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/nibedita-chakraborty-50a1b2288" target="_blank"
+      class="text-white transition duration-100 hover:text-blue-600 active:text-blue-700">
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-5v-7.5c0-1.8-.03-4.12-2.5-4.12-2.5 0-2.88 1.95-2.88 3.97V24h-5V8z"/>
+      </svg>
+    </a>
+            </div>
+          </div>
+          <!-- social - end -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- team - end -->
+
+<!-- call to action - start -->
+<div class="bg-white/10 backdrop-blur-md py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div class="flex flex-col overflow-hidden rounded-lg bg-gray-200 sm:flex-row md:h-80">
+      <!-- image - start -->
+      <div class="order-first h-48 w-full bg-gray-300 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
+        <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Andras Vas" class="h-full w-full object-cover object-center" />
+      </div>
+      <!-- image - end -->
+
+      <!-- content - start -->
+      <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
+        <h2 class="mb-4 text-xl font-bold text-black-300 md:text-2xl lg:text-4xl">Help center</h2>
+
+        <p class="mb-8 max-w-md text-black">If you face some issue then contact </p>
+
+        <div class="mt-auto">
+          <div class="mt-auto">
+  <button onclick="openModal()"
+    class="inline-block rounded-lg bg-white px-8 py-3 text-sm font-semibold text-black hover:bg-gray-100">
+    Contact support
+  </button>
+</div>
+<!-- Contact Modal -->
+<div id="contactModal" class="fixed inset-0 hidden items-center justify-center bg-black bg-opacity-50 z-50">
+  
+  <div class="bg-white/10 backdrop-blur-md rounded-lg p-6 w-full max-w-md shadow-lg relative">
+    
+    <!-- Close Button -->
+    <button onclick="closeModal()" class="absolute top-2 right-3 text-white text-xl">&times;</button>
+
+    <h2 class="text-xl font-bold mb-4">Contact Support</h2>
+
+    <!-- Email Selection -->
+    <label class="block mb-2 font-semibold text-white">Select Email</label>
+    <select id="emailSelect" class="w-full mb-4 border rounded px-3 py-2">
+      <option value="ghoshmahesh133@gmail.com">Mahesh (Support 1)</option>
+      <option value="nibeditachakrabortoy016@gmail.com">Nibedita (Support 2)</option>
+    </select>
+
+    <!-- Message Box -->
+    <label class="block mb-2 font-semibold text-white">Your Message</label>
+    <textarea id="messageBox" rows="4" placeholder="Write your issue..."
+      class="w-full border rounded px-3 py-2 mb-4"></textarea>
+
+    <!-- Send Button -->
+    <button onclick="sendMail()"
+      class="w-full bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600">
+      Send Message
+    </button>
+
+  </div>
+</div>
+<script>
+  function openModal() {
+    document.getElementById("contactModal").classList.remove("hidden");
+    document.getElementById("contactModal").classList.add("flex");
+  }
+
+  function closeModal() {
+    document.getElementById("contactModal").classList.add("hidden");
+    document.getElementById("contactModal").classList.remove("flex");
+  }
+
+  function sendMail() {
+    let email = document.getElementById("emailSelect").value;
+    let message = document.getElementById("messageBox").value;
+
+    let mailtoLink = `mailto:${email}?subject=Support Request&body=${encodeURIComponent(message)}`;
+    
+    window.location.href = mailtoLink;
+  }
+</script>
+        </div>
+      </div>
+      <!-- content - end -->
+    </div>
+  </div>
+</div>
+<!-- call to action - end -->
+
+
+<!-- footer - start -->
+<footer class="bg-white/10 backdrop-blur-md">
+  <div class="bg-indigo-500 py-6">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class="flex flex-col items-center justify-between gap-2 md:flex-row">
+        <div class="mb-3 text-center md:mb-0 md:text-left">
+          <span class="font-bold uppercase tracking-widest text-white">Newsletter</span>
+          <p class="text-indigo-200">Subscribe to our newsletter</p>
+        </div>
+
+       <form onsubmit="sendNewsletter(event)" class="flex w-full gap-2 md:max-w-md">
+  <input id="userEmail" placeholder="Email"
+    class="w-full flex-1 rounded border border-white bg-indigo-400 px-3 py-2 text-white placeholder-indigo-100 outline-none focus:ring" />
+
+  <button type="submit"
+    class="inline-block rounded bg-white/10 backdrop-blur-md px-8 py-2 text-sm font-semibold text-indigo-500 hover:bg-gray-100">
+    Send
+  </button>
+</form><script>
+  function sendNewsletter(event) {
+    event.preventDefault();
+
+    let email = document.getElementById("userEmail").value;
+
+    let mailtoLink = `mailto:ghoshmahesh133@gmail.com,nibeditachakrabortoy016@gmail.com
+    ?subject=Newsletter Subscription
+    &body=User Email: ${email}`;
+
+    window.location.href = mailtoLink;
+  }
+</script>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-12 lg:pt-16">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
+        <div class="col-span-full lg:col-span-2">
+          <!-- logo - start -->
+          <div class="mb-4 lg:-mt-2">
+            <a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-white md:text-2xl" aria-label="logo">
+              <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+              </svg>
+
+              PLOOKUP
+            </a>
+          </div>
+          <!-- logo - end -->
+
+          <p class="mb-6 text-white sm:pr-8">Think Before You Click, PLOOKUP The rick</p>
+
+        
+          <!-- social - start -->
+<div class="flex gap-4">
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/phishing_detection_website/" target="_blank"
+    class="text-gray-300 transition duration-100 hover:text-pink-500 active:text-pink-600"
+    title="Instagram">
+    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z"/>
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/company/115094400/" target="_blank"
+    class="text-gray-300 transition duration-100 hover:text-blue-600 active:text-blue-700"
+    title="LinkedIn">
+    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-5v-7.5c0-1.8-.03-4.12-2.5-4.12-2.5 0-2.88 1.95-2.88 3.97V24h-5V8z"/>
+    </svg>
+  </a>
+
+</div>
+<!-- social - end -->
+
+        </div>
+
+        <!-- nav - start -->
+       <div class="max-w-5xl mx-auto mt-10">
+
+  <!-- Top Menu -->
+  <div class="flex justify-center gap-10 text-center border-b pb-4">
+    <button onclick="showMenu('products')" class="font-bold text-white">Products</button>
+    <button onclick="showMenu('company')" class="font-bold text-white">Company</button>
+    <button onclick="showMenu('support')" class="font-bold text-white">Support</button>
+    <button onclick="showMenu('legal')" class="font-bold text-white">Legal</button>
+  </div>
+
+  <!-- Submenu -->
+  <div id="submenu" class="flex justify-center gap-6 mt-6 text-indigo-600 font-medium"></div>
+
+  <!-- Description -->
+  <div id="content" class="mt-6 text-center text-white max-w-2xl mx-auto"></div>
+
+</div>
+
+<script>
+  const data = {
+    products: {
+      items: {
+        overview: "Our phishing detection system identifies malicious links in real time.",
+        solutions: "We provide to detect the link and show link information which is phishing link or authenticate link",
+        pricing: "We provide this site as a free website",
+        customers: "Everyone can use this site"
+      }
+    },
+    company: {
+      items: {
+        about: "We build tools to protect users from cyber threats.",
+        investor: "Focused on AI-driven cybersecurity innovation.",
+        jobs: "Work with us on real-world cyber problems.",
+        blog: "Learn about phishing trends and safety tips."
+      }
+    },
+    support: {
+      items: {
+        contact: "If you have fase any kind of problem then you can contact with us by using help center",
+        docs: "You can enter any kind of wesite URL here and than if you can click on submit bottom you can see that those web site is phishing or authentic ",
+        chat: "If you want to chat with us than you can use our instagram id or linkdin id",
+      }
+    },
+    legal: {
+      items: {
+        terms: "There are no specific rules. If you want to use this website, it's very easy. ",
+        privacy: "Your data is protected.",
+      }
+    }
+  };
+
+  function showMenu(menu) {
+    const submenu = document.getElementById("submenu");
+    const content = document.getElementById("content");
+
+    submenu.innerHTML = "";
+    content.innerHTML = "";
+
+    for (let key in data[menu].items) {
+      const btn = document.createElement("button");
+      btn.innerText = key.charAt(0).toUpperCase() + key.slice(1);
+      btn.onclick = () => {
+        content.innerText = data[menu].items[key];
+      };
+      submenu.appendChild(btn);
+    }
+  }
+</script>
+        <!-- nav - end -->
+      </div>
+
+      <div class="border-t py-8 text-center text-sm text-white">© 2026 - Present PLOOKUP</div>
+    </div>
+  </div>
+</footer>
+<!-- footer - end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+    <script>
+VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6366f1,       // Indigo color
+  backgroundColor: 0x0f172a, // dark blue (professional)
+  points: 12.00,
+  maxDistance: 22.00,
+  spacing: 18.00
+})
+</script>
+  </body>
+</html>
